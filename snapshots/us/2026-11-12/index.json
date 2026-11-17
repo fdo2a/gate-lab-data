@@ -1,0 +1,15 @@
+{
+ "date": "2026-11-12",
+ "format": "snapshot-index/1",
+ "market": "us",
+ "versions": [
+  {
+   "created_at": "2026-11-17T09:14:01Z",
+   "invalidates": [],
+   "kind": "initial",
+   "manifest_sha256": "ee1e1cebe68ac3da0f5d934a0f3a76ba637e5223f89965ccc59d0ac183b54108",
+   "note": "",
+   "v": 1
+  }
+ ]
+}
