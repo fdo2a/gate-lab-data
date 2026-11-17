@@ -1,25 +1,80 @@
 {
- "_doc": "미국 일간 스냅샷에 담는 파일. [스냅샷 경로, 원천 저장소 경로 또는 glob]. 루틴이 쓰는 파일(data/macro.json)은 담지 않는다.",
+ "_doc": "미국 일간 스냅샷에 담는 파일. [스냅샷 경로, 원천 저장소 경로 또는 glob]. 루틴이 쓰는 파일(data/macro.json)은 담지 않는다. history/market.jsonl = 수집 작업이 날마다 덧붙이는 일별 종가 이력(판단 근거를 다시 계산하는 데 쓴다).",
  "files": [
-  ["datadir/auctions.json", "data/auctions.json"],
-  ["datadir/calendar.json", "data/calendar.json"],
-  ["datadir/econ_indicators.json", "data/econ_indicators.json"],
-  ["datadir/fund_board.html", "data/fund_board.html"],
-  ["datadir/fund_board.json", "data/fund_board.json"],
-  ["datadir/intraday.json", "data/intraday.json"],
-  ["datadir/macro_eval.json", "data/macro_eval.json"],
-  ["datadir/macro_metrics.json", "data/macro_metrics.json"],
-  ["datadir/market_data.json", "data/market_data.json"],
-  ["datadir/movers.json", "data/movers.json"],
-  ["datadir/sector_performance.html", "data/sector_performance.html"],
-  ["datadir/telegram.json", "data/telegram/{date}.json"],
-  ["datadir/yield_curve.png", "data/yield_curve.png"],
-  ["datadir/news/{date}.json", "data/news/{date}.json"],
-  ["datadir/releases/index.json", "data/releases/index.json"]
+  [
+   "datadir/auctions.json",
+   "data/auctions.json"
+  ],
+  [
+   "datadir/calendar.json",
+   "data/calendar.json"
+  ],
+  [
+   "datadir/econ_indicators.json",
+   "data/econ_indicators.json"
+  ],
+  [
+   "datadir/fund_board.html",
+   "data/fund_board.html"
+  ],
+  [
+   "datadir/fund_board.json",
+   "data/fund_board.json"
+  ],
+  [
+   "datadir/intraday.json",
+   "data/intraday.json"
+  ],
+  [
+   "datadir/macro_eval.json",
+   "data/macro_eval.json"
+  ],
+  [
+   "datadir/macro_metrics.json",
+   "data/macro_metrics.json"
+  ],
+  [
+   "datadir/market_data.json",
+   "data/market_data.json"
+  ],
+  [
+   "datadir/movers.json",
+   "data/movers.json"
+  ],
+  [
+   "datadir/sector_performance.html",
+   "data/sector_performance.html"
+  ],
+  [
+   "datadir/telegram.json",
+   "data/telegram/{date}.json"
+  ],
+  [
+   "datadir/yield_curve.png",
+   "data/yield_curve.png"
+  ],
+  [
+   "datadir/news/{date}.json",
+   "data/news/{date}.json"
+  ],
+  [
+   "datadir/releases/index.json",
+   "data/releases/index.json"
+  ],
+  [
+   "datadir/history/market.jsonl",
+   "data/history/market.jsonl"
+  ]
  ],
  "trees": [
-  ["datadir/fed/", "data/fed/"],
-  ["datadir/liquidity/", "data/liquidity/"]
+  [
+   "datadir/fed/",
+   "data/fed/"
+  ],
+  [
+   "datadir/liquidity/",
+   "data/liquidity/"
+  ]
  ],
  "exclude": []
 }

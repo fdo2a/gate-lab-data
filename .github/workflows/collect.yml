@@ -16,9 +16,11 @@ jobs:
       - name: Collect (the operating repo's commit stands in for the sources; --real fetches from the source directly)
         run: |
           n=0
-          grep -v '^#' plan.txt | while read -r market date commit kind real; do
+          grep -v '^#' plan.txt | while read -r market date commit kind real ver; do
             [ -z "$market" ] && continue
-            [ -d "snapshots/$market/$date" ] && { echo "skip $market $date — already collected (append-only)"; continue; }
+            ver="${ver:-1}"                       # 계획 줄의 여섯째 칸 = 만들 판 번호(없으면 1). 그 판이 이미 있으면 건너뛴다
+            [ -d "snapshots/$market/$date/v$ver" ] && { echo "skip $market $date v$ver — already collected (append-only)"; continue; }
+            [ "$real" = "-" ] && real=""
             n=$((n+1)); SRC="$RUNNER_TEMP/src-$n.git"      # 줄마다 따로 받는다(얕은 받기를 한 저장소에 겹치면 git 이 멈춘다)
             git init -q --bare "$SRC"
             git --git-dir "$SRC" fetch -q --depth 120 https://github.com/fdo2a/fdo2a.github.io "$commit"
