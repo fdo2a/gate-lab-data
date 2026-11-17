@@ -118,6 +118,8 @@ def main():
         raw = git(a.src_git, 'cat-file', 'blob', t[srcp])
         ent = {'path': dst, 'source': 'standin:%s@%s:%s' % (OPERATING, a.commit, srcp),
                'source_committed_at': committed_at(a.src_git, a.commit, srcp), 'fetched_at': fetched}
+        # 원천과 맞춰 봤는가 — 보호된 곳에 있다는 것과 원천과 같다는 것은 다른 사실이다
+        ent['source_verified'] = {'status': 'not_verified', 'why': '운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다'}
         if dst == 'datadir/auctions.json' and 'auctions' in a.real:
             md = git(a.src_git, 'cat-file', 'blob', t['data/market_data.json'])
             real = real_auctions(a.date, md)
@@ -129,6 +131,7 @@ def main():
             ent.update(source='https://www.treasurydirect.gov/TA_WS/securities/ (pinned build_auctions.py, direct fetch)',
                        source_committed_at=None, fetched_at=now(),
                        xcheck={'against': 'standin:%s@%s:%s' % (OPERATING, a.commit, srcp), 'ignored': ['generated'], 'equal': x == y})
+            ent['source_verified'] = {'status': 'matched' if x == y else 'mismatch', 'why': '원천에서 직접 받아 대역과 견줬다(generated 제외) — 이 한 번의 비교에 한한다'}
             raw = real
         ent.update(sha256=hashlib.sha256(raw).hexdigest(), bytes=len(raw), as_of=as_of(dst, raw))
         out = os.path.join(vdir, 'files', dst)
