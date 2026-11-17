@@ -1,0 +1,6 @@
+# 수집할 것 — 줄마다: market date commit kind [real]
+# 이 파일은 보호된 저장소 안에 있다. 수집 작업은 입력을 받지 않고 이 파일만 읽는다(실행시킬 수 있어도 무엇을 수집할지는 못 정한다).
+us 2026-11-16 3378e19652bbd5fdfef8281d4b33ad7fe18a4cb5 initial auctions
+kr 2026-11-16 1b2e0050024159ab55b828d57d19e8c9539a2eab initial
+us 2026-11-13 7e18f8bc2bdc20d736608414e29b2e07efc42833 initial
+kr 2026-11-13 61bd4b8c4f1834af2272e1968baecb33ca8f5167 initial

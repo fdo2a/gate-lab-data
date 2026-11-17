@@ -1,10 +1,6 @@
 name: collect snapshot (lab)
 on:
-  workflow_dispatch:
-    inputs:
-      plan:
-        description: "줄마다: market date commit kind [real]"
-        required: true
+  workflow_dispatch:          # 입력 없음 — 무엇을 수집할지는 저장소 안의 plan.txt 가 정한다
 permissions:
   contents: read
 concurrency: collect
@@ -18,12 +14,11 @@ jobs:
         with:
           persist-credentials: false
       - name: Collect (the operating repo's commit stands in for the sources; --real fetches from the source directly)
-        env:
-          PLAN: ${{ inputs.plan }}
         run: |
           n=0
-          printf '%s\n' "$PLAN" | while read -r market date commit kind real; do
+          grep -v '^#' plan.txt | while read -r market date commit kind real; do
             [ -z "$market" ] && continue
+            [ -d "snapshots/$market/$date" ] && { echo "skip $market $date — already collected (append-only)"; continue; }
             n=$((n+1)); SRC="$RUNNER_TEMP/src-$n.git"      # 줄마다 따로 받는다(얕은 받기를 한 저장소에 겹치면 git 이 멈춘다)
             git init -q --bare "$SRC"
             git --git-dir "$SRC" fetch -q --depth 120 https://github.com/fdo2a/fdo2a.github.io "$commit"
@@ -42,6 +37,7 @@ jobs:
           git config user.name "lab collector"
           git config user.email "collector@invalid"
           git add snapshots
+          if git diff --cached --quiet; then echo "nothing new to publish — main stays as it is"; rm -f "$RUNNER_TEMP/k"; exit 0; fi
           git commit -q -m "snapshot: run $GITHUB_RUN_ID"
           GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/k -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new" \
             git push git@github.com:fdo2a/gate-lab-data.git HEAD:main
