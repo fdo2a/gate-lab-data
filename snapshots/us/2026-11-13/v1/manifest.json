@@ -1,0 +1,269 @@
+{
+ "collector": {
+  "repo": "fdo2a/gate-lab-data",
+  "run": "44036535075",
+  "sha": "2330d59255d9161f177608d14e33f10061a7924e"
+ },
+ "created_at": "2026-11-17T07:09:58Z",
+ "date": "2026-11-13",
+ "files": [
+  {
+   "as_of": "2026-11-13",
+   "bytes": 3681,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/auctions.json",
+   "sha256": "ed08f24773f115f616815104a3cc51470c1ea061f0d871ca5981d2b6d64bbd40",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/auctions.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 6998,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/calendar.json",
+   "sha256": "9b1a8dd740e2188e8f767540ae4b64bfa3443166f9328e92d2d7aeda8d1b8096",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/calendar.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 7475,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/econ_indicators.json",
+   "sha256": "b377e683671fdfe7af43b3654b1bbe707c34ce2f434b6f82ce0f1469ebf8cd7d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/econ_indicators.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 65,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/events.json",
+   "sha256": "19d6626f63907a7291cc1a74c06ce4a86ff9d7037f94bc4ed3b5cb30dd81d8bb",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/events.json",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 9532,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/fomc-minutes-20261007.txt",
+   "sha256": "21b33f7348abbb4fd60d957210117d63e95d98e794661d499755d4d321811a01",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/fomc-minutes-20261007.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 9293,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/fomc-projections-20260916.txt",
+   "sha256": "49ce913fe9d12178a38a93c724009e20d4e959320ffe6c0bd7c8d40f921cb02d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/fomc-projections-20260916.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 81633,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/fomc-statement-20260916.txt",
+   "sha256": "407288109f9ca0f6358730a94e7f0258e16559d53fe6f28d7501c72c7c3b3be4",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/fomc-statement-20260916.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 53346,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/fomc-statement-20261028.txt",
+   "sha256": "6450a2171d74f47ac85da4f6825d8e8ad71468d109d817e1b425d405d180c72a",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/fomc-statement-20261028.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 36256,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/jackson-hole-20260828.txt",
+   "sha256": "a0ff7e424cd11b039af1c4304eb77b1c7ce7189147c3e9298af9af59f94a5b9f",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/jackson-hole-20260828.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 289,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/seen.json",
+   "sha256": "0028f818b93fba1053927b0856c8de972b48150184495a589e687b582175e57d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/seen.json",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 30,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fed/statements.json",
+   "sha256": "5f197370a4076584818157a68e17a0991a4dd8924c1bd06ccfbeed4aaa33f502",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fed/statements.json",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 14290,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fund_board.html",
+   "sha256": "07fc626ed15154fd1941ae79aa8a9956dd8880f50f43b5bf4c7a7f4e92bf9a1e",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fund_board.html",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 20802,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/fund_board.json",
+   "sha256": "40409621a169ad8903b9c0523c41dc016b2e985d9d626ebaac3dfdcae1977645",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/fund_board.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 1878,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/intraday.json",
+   "sha256": "d1ab3191a09127cc0eef31e6d9fa406cecac90f68221701c39c3e48441828654",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/intraday.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 1032,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/liquidity/liquidity.json",
+   "sha256": "95535fab7318c20d7d166b1a2662fce5940f10bf7410b9dd64e20349af56ff19",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/liquidity/liquidity.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 3882,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/liquidity/qra/2026Q4_borrowing.txt",
+   "sha256": "6e68303d9a23af00f69514852a38445d9bb3493e17a28347fbd4c7e00d46cc80",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/liquidity/qra/2026Q4_borrowing.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 6930,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/liquidity/qra/2026Q4_refunding.txt",
+   "sha256": "f553e5b9c3875ed9ba1f8030745c20cb1ea7738048093cc47d0cd7f7d38895a8",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/liquidity/qra/2026Q4_refunding.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 13384,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/liquidity/qra/2026Q4_tbac.txt",
+   "sha256": "81b285c9d68d029aaaf8bd2dc5d6ce8f663f0d47e1cf533707cc1648302b3b2f",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/liquidity/qra/2026Q4_tbac.txt",
+   "source_committed_at": "2026-11-11T01:21:38Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 112206,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/liquidity/state.json",
+   "sha256": "ebe2df75fee42c76284588258ab6ec4fc5687d324094d803f9927c2a08b6ffc5",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/liquidity/state.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 9432,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/macro_eval.json",
+   "sha256": "ef51c02b55d50a0e9d4a75f41a54753e7e7ba8f8b72dc0f973c0bab3c1949f9a",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/macro_eval.json",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 27098,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/macro_metrics.json",
+   "sha256": "5a4a99dfce65a925a91b989689406fbe9d3f7ff3db4443551f901a59db60b832",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/macro_metrics.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 29961,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/market_data.json",
+   "sha256": "7e1580664ed4178fcbd66c56bf01096148be0e81148b658f14a165aa495be906",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/market_data.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 2484,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/movers.json",
+   "sha256": "75c59c008d0684aaa6e65ab8726f02bbe1410ea1e7b39382730fa06335e210c8",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/movers.json",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 123053,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/news/2026-11-13.json",
+   "sha256": "0f34a75f909ef2ecdc4f06a858e1bd4992ec3c304fc79b2b0b209586e405a3e5",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/news/2026-11-13.json",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 660,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/releases/index.json",
+   "sha256": "94ad8af2163728b7797e7151583f5d1b72ec386d6aa54dfe8004365fa95f8d19",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/releases/index.json",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 11724,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/sector_performance.html",
+   "sha256": "0c3135b14622c8e43ef37bd825719a3a9a173614b5d3793d921998a1da2da23b",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/sector_performance.html",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": "2026-11-13",
+   "bytes": 29927,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/telegram.json",
+   "sha256": "6ad1a7d87c4d1dd290ff5a03e09edc13f20d47745347d6011e24a1b7565f7328",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/telegram/2026-11-13.json",
+   "source_committed_at": "2026-11-13T22:41:03Z"
+  },
+  {
+   "as_of": null,
+   "bytes": 73174,
+   "fetched_at": "2026-11-17T07:09:58Z",
+   "path": "datadir/yield_curve.png",
+   "sha256": "ca64dad455c83a02670d389422ea6cad5adc7f71d274ad56e62e4c2b4e25a368",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@7e18f8bc2bdc20d736608414e29b2e07efc42833:data/yield_curve.png",
+   "source_committed_at": "2026-11-13T23:32:52Z"
+  }
+ ],
+ "format": "snapshot/1",
+ "invalidates": [],
+ "kind": "initial",
+ "market": "us",
+ "note": "",
+ "version": 1
+}

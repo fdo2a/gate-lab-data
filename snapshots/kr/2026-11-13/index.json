@@ -1,0 +1,15 @@
+{
+ "date": "2026-11-13",
+ "format": "snapshot-index/1",
+ "market": "kr",
+ "versions": [
+  {
+   "created_at": "2026-11-17T07:10:02Z",
+   "invalidates": [],
+   "kind": "initial",
+   "manifest_sha256": "284947561415d4984aecc43b9af824411a905f119bf71c26a9c5aaa2be0516b6",
+   "note": "",
+   "v": 1
+  }
+ ]
+}
