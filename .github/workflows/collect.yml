@@ -21,14 +21,16 @@ jobs:
         env:
           PLAN: ${{ inputs.plan }}
         run: |
-          git init -q --bare "$RUNNER_TEMP/src.git"
+          n=0
           printf '%s\n' "$PLAN" | while read -r market date commit kind real; do
             [ -z "$market" ] && continue
-            git --git-dir "$RUNNER_TEMP/src.git" fetch -q --depth 120 https://github.com/fdo2a/fdo2a.github.io "$commit"
+            n=$((n+1)); SRC="$RUNNER_TEMP/src-$n.git"      # 줄마다 따로 받는다(얕은 받기를 한 저장소에 겹치면 git 이 멈춘다)
+            git init -q --bare "$SRC"
+            git --git-dir "$SRC" fetch -q --depth 120 https://github.com/fdo2a/fdo2a.github.io "$commit"
             if [ -n "$real" ]; then
-              python3 collect.py --market "$market" --date "$date" --src-git "$RUNNER_TEMP/src.git" --commit "$commit" --kind "$kind" --real "$real"
+              python3 collect.py --market "$market" --date "$date" --src-git "$SRC" --commit "$commit" --kind "$kind" --real "$real"
             else
-              python3 collect.py --market "$market" --date "$date" --src-git "$RUNNER_TEMP/src.git" --commit "$commit" --kind "$kind"
+              python3 collect.py --market "$market" --date "$date" --src-git "$SRC" --commit "$commit" --kind "$kind"
             fi
           done
       - name: Push with the collector key (rulesets reject every other writer)
