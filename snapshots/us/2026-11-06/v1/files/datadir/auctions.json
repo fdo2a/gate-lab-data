@@ -1,0 +1,43 @@
+{
+  "report_date": "2026-11-06",
+  "generated": "2026-11-07 08:19 KST",
+  "source": "TreasuryDirect TA_WS",
+  "ok": true,
+  "error": null,
+  "complete": true,
+  "pending": [],
+  "today": [],
+  "recent": [],
+  "next": [
+    {
+      "date": "2026-11-09",
+      "key": "nominal-3y",
+      "label_ko": "3년물",
+      "offering_amt": 58000000000.0,
+      "close_time_et": "01:00 PM",
+      "reopening": false
+    },
+    {
+      "date": "2026-11-10",
+      "key": "nominal-10y",
+      "label_ko": "10년물",
+      "offering_amt": 42000000000.0,
+      "close_time_et": "01:00 PM",
+      "reopening": false
+    },
+    {
+      "date": "2026-11-12",
+      "key": "nominal-30y",
+      "label_ko": "30년물",
+      "offering_amt": 25000000000.0,
+      "close_time_et": "01:00 PM",
+      "reopening": false
+    }
+  ],
+  "rule": {
+    "avg_n": 6,
+    "min_hist": 3,
+    "btc_band": 0.05,
+    "dealer_band_pp": 1.0
+  }
+}

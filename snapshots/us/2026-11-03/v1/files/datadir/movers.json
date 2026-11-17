@@ -1,0 +1,94 @@
+{
+  "report_date": "2026-11-03",
+  "universe": "S&P 500 중 달러 거래대금 상위 60",
+  "threshold_pct": 5.0,
+  "groups": [
+    {
+      "id": "g1",
+      "industry": "Semiconductors",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위",
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Nvidia (NVDA)",
+          "change_pct": 2.29,
+          "close": 206.69,
+          "value": 18664766974.95
+        },
+        {
+          "name": "Monolithic Power Systems (MPWR)",
+          "change_pct": 6.78,
+          "close": 1328.3,
+          "value": 1738715541.31
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "industry": "Systems Software",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위"
+      ],
+      "members": [
+        {
+          "name": "Microsoft (MSFT)",
+          "change_pct": 2.74,
+          "close": 520.99,
+          "value": 10374305916.76
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "industry": "Technology Hardware, Storage & Peripherals",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Apple Inc. (AAPL)",
+          "change_pct": -1.9,
+          "close": 331.9,
+          "value": 20367043457.36
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "industry": "Consumer Staples Merchandise Retail",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Walmart (WMT)",
+          "change_pct": -2.22,
+          "close": 124.86,
+          "value": 2621684683.66
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "industry": "Application Software",
+      "direction": "up",
+      "reasons": [
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Oracle Corporation (ORCL)",
+          "change_pct": 5.85,
+          "close": 126.19,
+          "value": 10573514187.7
+        }
+      ]
+    }
+  ]
+}

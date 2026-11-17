@@ -1,0 +1,130 @@
+{
+  "report_date": "2026-11-06",
+  "universe": "S&P 500 중 달러 거래대금 상위 60",
+  "threshold_pct": 5.0,
+  "groups": [
+    {
+      "id": "g1",
+      "industry": "Semiconductors",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위",
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Nvidia (NVDA)",
+          "change_pct": 2.78,
+          "close": 186.64,
+          "value": 33466179764.64
+        },
+        {
+          "name": "Advanced Micro Devices (AMD)",
+          "change_pct": 11.04,
+          "close": 449.04,
+          "value": 20479758783.56
+        },
+        {
+          "name": "Micron Technology (MU)",
+          "change_pct": 5.12,
+          "close": 690.0,
+          "value": 30824200260.0
+        },
+        {
+          "name": "Intel (INTC)",
+          "change_pct": 7.71,
+          "close": 56.28,
+          "value": 9754036912.32
+        },
+        {
+          "name": "Marvell Technology (MRVL)",
+          "change_pct": 5.73,
+          "close": 141.2,
+          "value": 4711462940.57
+        },
+        {
+          "name": "Qualcomm (QCOM)",
+          "change_pct": 5.52,
+          "close": 165.41,
+          "value": 3253890179.69
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "industry": "Systems Software",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Microsoft (MSFT)",
+          "change_pct": -0.99,
+          "close": 530.61,
+          "value": 13979478265.79
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "industry": "Technology Hardware, Storage & Peripherals",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Apple Inc. (AAPL)",
+          "change_pct": -0.52,
+          "close": 342.37,
+          "value": 14978982066.94
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "industry": "Semiconductor Materials & Equipment",
+      "direction": "up",
+      "reasons": [
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Lam Research (LRCX)",
+          "change_pct": 8.23,
+          "close": 200.44,
+          "value": 3593615843.61
+        },
+        {
+          "name": "KLA Corporation (KLAC)",
+          "change_pct": 6.69,
+          "close": 138.49,
+          "value": 2123553533.5
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "industry": "Communications Equipment",
+      "direction": "up",
+      "reasons": [
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Lumentum (LITE)",
+          "change_pct": 5.67,
+          "close": 538.59,
+          "value": 2898032828.93
+        },
+        {
+          "name": "Arista Networks (ANET)",
+          "change_pct": 7.31,
+          "close": 170.8,
+          "value": 2045462748.15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-11-10",
+  "universe": "S&P 500 중 달러 거래대금 상위 60",
+  "threshold_pct": 5.0,
+  "groups": [
+    {
+      "id": "g1",
+      "industry": "Semiconductors",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위",
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Nvidia (NVDA)",
+          "change_pct": -5.47,
+          "close": 168.89,
+          "value": 71770611859.27
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "industry": "Systems Software",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Microsoft (MSFT)",
+          "change_pct": -2.2,
+          "close": 533.16,
+          "value": 14221291061.23
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "industry": "Semiconductors",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위"
+      ],
+      "members": [
+        {
+          "name": "Broadcom (AVGO)",
+          "change_pct": 3.91,
+          "close": 331.98,
+          "value": 9370747317.27
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "industry": "Broadline Retail",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위"
+      ],
+      "members": [
+        {
+          "name": "Amazon (AMZN)",
+          "change_pct": 1.48,
+          "close": 270.87,
+          "value": 10463456814.89
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "industry": "Biotechnology",
+      "direction": "down",
+      "reasons": [
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Moderna (MRNA)",
+          "change_pct": -6.75,
+          "close": 250.83,
+          "value": 2787677233.48
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "report_date": "2026-11-16",
+  "universe": "S&P 500 중 달러 거래대금 상위 60",
+  "threshold_pct": 5.0,
+  "groups": [
+    {
+      "id": "g1",
+      "industry": "Semiconductors",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위",
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Nvidia (NVDA)",
+          "change_pct": -4.12,
+          "close": 156.14,
+          "value": 51519851770.77
+        },
+        {
+          "name": "Micron Technology (MU)",
+          "change_pct": -7.62,
+          "close": 719.02,
+          "value": 19122267674.49
+        },
+        {
+          "name": "Advanced Micro Devices (AMD)",
+          "change_pct": -5.58,
+          "close": 504.28,
+          "value": 18045930554.68
+        },
+        {
+          "name": "Intel (INTC)",
+          "change_pct": -7.02,
+          "close": 55.47,
+          "value": 5591547414.41
+        },
+        {
+          "name": "Marvell Technology (MRVL)",
+          "change_pct": -7.27,
+          "close": 145.36,
+          "value": 3093299624.11
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "industry": "Interactive Media & Services",
+      "direction": "down",
+      "reasons": [
+        "지수 기여 하위"
+      ],
+      "members": [
+        {
+          "name": "Alphabet Inc. (Class A) (GOOGL)",
+          "change_pct": -4.07,
+          "close": 283.72,
+          "value": 9668554876.2
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "industry": "Personal Care Products",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위"
+      ],
+      "members": [
+        {
+          "name": "Procter & Gamble (PG)",
+          "change_pct": 1.9,
+          "close": 173.02,
+          "value": 2265857345.49
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "industry": "Managed Health Care",
+      "direction": "up",
+      "reasons": [
+        "지수 기여 상위"
+      ],
+      "members": [
+        {
+          "name": "UnitedHealth Group (UNH)",
+          "change_pct": 1.12,
+          "close": 412.02,
+          "value": 1813190786.35
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "industry": "Technology Hardware, Storage & Peripherals",
+      "direction": "down",
+      "reasons": [
+        "이상 등락"
+      ],
+      "members": [
+        {
+          "name": "Sandisk (SNDK)",
+          "change_pct": -8.58,
+          "close": 809.11,
+          "value": 9891870410.0
+        },
+        {
+          "name": "Dell Technologies (DELL)",
+          "change_pct": -6.96,
+          "close": 320.55,
+          "value": 2676468665.78
+        },
+        {
+          "name": "Seagate Technology (STX)",
+          "change_pct": -5.54,
+          "close": 499.0,
+          "value": 2230435190.0
+        }
+      ]
+    }
+  ]
+}

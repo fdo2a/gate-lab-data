@@ -10,6 +10,14 @@
    "manifest_sha256": "dfbf99e25b306ff97f77ef88edb65d4b1b06d8019e73a46bfd13e5982af1f85c",
    "note": "",
    "v": 1
+  },
+  {
+   "created_at": "2026-11-17T10:58:28Z",
+   "invalidates": [],
+   "kind": "revision",
+   "manifest_sha256": "282cb05a1c15f719edec02a1b91971c2c0b0ea776dd0d7cfb1aadf773adbea16",
+   "note": "",
+   "v": 2
   }
  ]
 }

@@ -1,0 +1,303 @@
+{
+ "collector": {
+  "repo": "fdo2a/gate-lab-data",
+  "run": "44069683000",
+  "sha": "29f5b56aa20f154f7b3c278c8b504f73b3c9b2e1"
+ },
+ "created_at": "2026-11-17T10:58:50Z",
+ "date": "2026-11-03",
+ "files": [
+  {
+   "as_of": "2026-11-03",
+   "bytes": 2574,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/calendar.json",
+   "sha256": "e57c6fddc19c1c17597c3585ec6b384103a2dc1a920caeaf69341af128826efa",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/calendar.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 6592,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/econ_indicators.json",
+   "sha256": "bc9c3f1eb55c3260c1b676a3540905115bf91288ff354c419a62c0e2f60f71bc",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/econ_indicators.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 1625,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/events.json",
+   "sha256": "29d9974d45cb131d5479287d73b8c88344a5cc4c0c4e27a89c9ab8c0565ee2c7",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/events.json",
+   "source_committed_at": "2026-11-03T22:42:35Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 9532,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/fomc-minutes-20261007.txt",
+   "sha256": "21b33f7348abbb4fd60d957210117d63e95d98e794661d499755d4d321811a01",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/fomc-minutes-20261007.txt",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 9293,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/fomc-projections-20260916.txt",
+   "sha256": "49ce913fe9d12178a38a93c724009e20d4e959320ffe6c0bd7c8d40f921cb02d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/fomc-projections-20260916.txt",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 81633,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/fomc-statement-20260916.txt",
+   "sha256": "407288109f9ca0f6358730a94e7f0258e16559d53fe6f28d7501c72c7c3b3be4",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/fomc-statement-20260916.txt",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 53346,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/fomc-statement-20261028.txt",
+   "sha256": "6450a2171d74f47ac85da4f6825d8e8ad71468d109d817e1b425d405d180c72a",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/fomc-statement-20261028.txt",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 36256,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/jackson-hole-20260828.txt",
+   "sha256": "a0ff7e424cd11b039af1c4304eb77b1c7ce7189147c3e9298af9af59f94a5b9f",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/jackson-hole-20260828.txt",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 289,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/seen.json",
+   "sha256": "0028f818b93fba1053927b0856c8de972b48150184495a589e687b582175e57d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/seen.json",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 30,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fed/statements.json",
+   "sha256": "5f197370a4076584818157a68e17a0991a4dd8924c1bd06ccfbeed4aaa33f502",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fed/statements.json",
+   "source_committed_at": "2026-10-30T09:31:31Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 13042,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fund_board.html",
+   "sha256": "8cf52640e135a34a9a862249a0726db231c2f63af4d1e1c88a1d24c3cb228cb5",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fund_board.html",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 20818,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/fund_board.json",
+   "sha256": "c0d918e62980806c704f8024e42c9dea2e4f158dcacefbfe4aa552e2dc3e19c6",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/fund_board.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 112799,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/history/market.jsonl",
+   "sha256": "7eda9eacf17ca7fe21c57193f0cf21677a8e4e2ce1880b712e22e663b8f9e34c",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/history/market.jsonl",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 1897,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/intraday.json",
+   "sha256": "50b39bcd65205e45c64b9956d4c636c5bb6c5bce8c5ab7823d6b02927dfd791a",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/intraday.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 7932,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/macro_eval.json",
+   "sha256": "379e15bbb37c98ba4896be9c38703e9d2e373fc63ba30b6204dc1ffeceff335d",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/macro_eval.json",
+   "source_committed_at": "2026-11-03T22:42:35Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 20702,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/macro_metrics.json",
+   "sha256": "c6ae465326894d09cb80d21417b1844d08ca144d34a61f4bbf9c7e1ae8f5fce5",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/macro_metrics.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 29990,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/market_data.json",
+   "sha256": "ee6a934510f49f0eb47a226f7cdf1386c36803a6e0f67d067a3c2a1cf16bb1ea",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/market_data.json",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 2014,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/movers.json",
+   "sha256": "baac3c744a1c65161e48456270e1599202c161fa515f7d8cbb64e6927a3c91ce",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/movers.json",
+   "source_committed_at": "2026-11-03T22:42:35Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 60944,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/news/2026-11-03.json",
+   "sha256": "19df8389dbdecc65c1ae6f7f64f3ba2c0020fc06176a5ec3ab9050b81732d2d2",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/news/2026-11-03.json",
+   "source_committed_at": "2026-11-03T22:57:46Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": "2026-11-03",
+   "bytes": 497,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/releases/index.json",
+   "sha256": "359c7e705cda6d05ed8dda52030655332b85cc3a1d9cca323b4867c4c0673f03",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/releases/index.json",
+   "source_committed_at": "2026-11-03T22:42:35Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 11725,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/sector_performance.html",
+   "sha256": "a0c573d7bb7a5910759f0c157dab94fb1f1a56fd4a278ce3465241ed4a4acd21",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/sector_performance.html",
+   "source_committed_at": "2026-11-03T22:42:35Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  },
+  {
+   "as_of": null,
+   "bytes": 68412,
+   "fetched_at": "2026-11-17T10:58:50Z",
+   "path": "datadir/yield_curve.png",
+   "sha256": "ce842a799ea43695b25638c8742ebdea14bfdda80de77bb20c01320172cfbade",
+   "source": "standin:github.com/fdo2a/fdo2a.github.io@55edf2f15496643eefffd4573c5c17b159a96812:data/yield_curve.png",
+   "source_committed_at": "2026-11-03T23:22:28Z",
+   "source_verified": {
+    "status": "not_verified",
+    "why": "운영 저장소 커밋을 대역으로 받았다 — 원천과 대조하지 않았다"
+   }
+  }
+ ],
+ "format": "snapshot/1",
+ "invalidates": [],
+ "kind": "initial",
+ "market": "us",
+ "note": "",
+ "version": 1
+}
