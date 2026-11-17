@@ -1,0 +1,10 @@
+{
+ "_doc": "한국 일간 스냅샷. kr/data/ 전체에서 루틴이 쓰는 kr_stance.json 만 뺀다.",
+ "files": [
+  ["tg/kr_telegram.json", "kr/data/telegram/{date}.json"]
+ ],
+ "trees": [
+  ["datadir/", "kr/data/"]
+ ],
+ "exclude": ["kr/data/kr_stance.json"]
+}

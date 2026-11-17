@@ -1,0 +1,22 @@
+name: probe - writes without the collector key must be rejected (lab)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write                 # 일부러 쓰기 권한을 준다 — 그래도 보호 규칙이 막아야 한다
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Try to overwrite a snapshot, add a branch, add a tag with the workflow token
+        run: |
+          git config user.name probe; git config user.email probe@invalid
+          ok=0
+          f=$(ls snapshots/us/2026-11-16/v1/files/datadir/market_data.json 2>/dev/null || echo README.md)
+          echo " " >> "$f"; git commit -q -am "probe: tamper snapshot"
+          if git push origin HEAD:main 2>&1 | tee out1.txt | grep -q "GH013\|rejected\|protected"; then echo "main push: REJECTED"; else echo "main push: NOT rejected"; ok=1; fi
+          if git push origin HEAD:refs/heads/probe-branch 2>&1 | tee out2.txt | grep -q "GH013\|rejected\|protected"; then echo "new branch: REJECTED"; else echo "new branch: NOT rejected"; ok=1; fi
+          git tag probe-tag
+          if git push origin probe-tag 2>&1 | tee out3.txt | grep -q "GH013\|rejected\|protected"; then echo "new tag: REJECTED"; else echo "new tag: NOT rejected"; ok=1; fi
+          cat out1.txt out2.txt out3.txt
+          exit $ok
